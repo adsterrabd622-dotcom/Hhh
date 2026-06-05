@@ -3,6 +3,7 @@ import { useWebRTC } from './useWebRTC';
 import { QRCodeSVG } from 'qrcode.react';
 import { Send, Download, Smartphone, Monitor, ArrowRight, CheckCircle, RefreshCcw, AlertCircle, ArrowLeft, Copy, Check, UploadCloud, Shield, Zap, Sparkles, Share2, HelpCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logoImage from './assets/images/premium_pigeon_logo_1780648822634.png';
 
 type AppMode = 'home' | 'receive' | 'send';
 
@@ -60,7 +61,7 @@ export default function App() {
               whileTap={{ scale: 0.95 }}
               className="w-14 h-14 rounded-2xl overflow-hidden shadow-lg shadow-emerald-500/20 flex items-center justify-center bg-white ring-1 ring-slate-900/5"
             >
-              <img src="/src/assets/images/premium_pigeon_logo_1780648822634.png" alt="Payra Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+              <img src={logoImage} alt="Payra Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </motion.div>
             <h1 className="text-3xl font-bold tracking-tight text-slate-900 transition-colors">
               পায়রা <span className="text-emerald-500 font-bold ml-1">Payra</span>
