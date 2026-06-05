@@ -1,0 +1,6 @@
+{
+  "name": "Local Drop",
+  "description": "Peer-to-peer file transfer over local networks",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
